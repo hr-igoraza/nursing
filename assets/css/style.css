@@ -1,0 +1,38 @@
+:root {
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --primary-color: #20b1ab !important;
+
+  --font-primary: "Poppins", serif;
+  --font-secondary: "Outfit", serif;
+}
+
+body {
+  background-color: var(--bg-color);
+
+  color: var(--text-color);
+}
+
+.f-primary {
+  font-family: "Poppins", serif;
+}
+
+.f-secondary {
+  font-family: "Outfit", serif;
+}
+
+.color-primary {
+  color: var(--primary-color) ;
+}
+
+button:hover {
+  background-color: var(--primary-color) !important;
+}
+
+btn:hover {
+  background-color: var(--primary-color) !important;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+}

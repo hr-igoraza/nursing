@@ -1,0 +1,190 @@
+/* General Styles */
+:root {
+  --primary-color: #20b1ab;
+  --text-color: #000;
+  --font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+/* Hero Section */
+.hero {
+  background: url(/assets/images/home/herobg.png) center/cover no-repeat;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.hero p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+.action-button {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 2px solid var(--primary-color);
+  padding: 0.5em 1.8em;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Find Profile Section */
+.find-profile,
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-profile h2,
+.about-us h2 {
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.find-profile p,
+.about-us p,
+.about-details p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+/* Status Box */
+.status {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--primary-color);
+}
+
+.status h4 {
+  font-weight: 600;
+}
+
+/* About Details */
+.about-details h3,
+.about-details h4 {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.about-details h3 {
+  font-size: 25px;
+}
+
+.about-details h4 {
+  font-size: 16px;
+}
+
+/* Details Button */
+.details-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: fit-content;
+  padding: 0.8em 1.8em;
+  border-radius: 20px;
+}
+
+.details-btn a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+.trust {
+  background-color: var(--primary-color);
+}
+
+.trust h2 {
+  font-weight: 600;
+  font-size: 50px;
+  color: #fff;
+}
+.trust h4 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.trust-content {
+  color: #4e4e4e;
+  font-size: 18px;
+}
+
+.card {
+  aspect-ratio: 1/1.1 !important;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.our-services h2 {
+  font-weight: 600;
+  font-size: 50px;
+  /* color: var(--primary-color); */
+}
+
+.service-card {
+  border-radius: 20px;
+  margin: 10px;
+  position: relative;
+}
+
+.service-card p {
+  position: absolute;
+  bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 !important;
+  width: 100%;
+  text-align: center;
+}
+
+/* ==== */
+
+.beyond-borders {
+  background: url(/assets/images/home/beyondBorders.png) center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.beyond-borders h2{
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.beyond-borders p{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+/* ====  */
+
