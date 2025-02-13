@@ -63,6 +63,10 @@ body {
   margin-bottom: 0;
 }
 
+.about-us h2 {
+  color: #000;
+}
+
 .find-profile p,
 .about-us p,
 .about-details p {
@@ -77,6 +81,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--primary-color);
+  width: fit-content;
 }
 
 .status h4 {
@@ -134,7 +139,6 @@ body {
 }
 
 .card {
-  aspect-ratio: 1/1.1 !important;
   border-radius: 20px;
   margin: 10px;
 }
@@ -276,7 +280,7 @@ body {
   justify-content: center;
 }
 
-.test{
+.test {
   height: 150px;
 }
 
@@ -300,9 +304,6 @@ body {
   /* max-width: 500px; */
   /* margin: auto; */
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 .profile-container {
   position: relative;
@@ -370,4 +371,147 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+/* Responsive Design */
+
+@media (min-width: 1024px) {
+  .card {
+    aspect-ratio: 1/1.1;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hero{
+    height: 90vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .action-button {
+    font-size: 1rem;
+  }
+
+  .find-profile h2,
+  .about-us h2,
+  .trust h2,
+  .plans h2 {
+    font-size: 2rem;
+  }
+
+  .details-btn{
+    padding: 0.5em 0.5em;
+    border-radius: 10px;
+  }
+
+  .details-btn a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .trust-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .beyond-borders h2 {
+    font-size: 2rem;
+  }
+
+  .plan-card {
+    padding: 1rem;
+  }
+
+  .profile-img.left,
+  .profile-img.right {
+    position: static;
+    margin: 0.5rem;
+  }
+
+  .expertice{
+    flex-direction:column-reverse;
+    gap: 15px;
+  }
+
+  .people {
+    background-color: var(--primary-color);
+    padding: 3em 1em;
+    height: auto;
+  }
+
+  .test {
+    height: 80px;
+  }
+
+  .testimonial-text h2 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 90vh;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.1em !important;
+  }
+
+  p {
+    font-size: 0.8rem !important  ;
+  }
+
+  .action-button {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700 !important;
+  }
+
+  .card {
+    max-width: 300px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+
+  .beyond-borders{
+    height: 60vh;
+
+  }
+
+  .beyond-borders h2 {
+    font-size: 1.5rem;
+  }
+
+  .plan-card {
+    padding: 0.5rem;
+  }
+
+  .profile-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .main-img {
+    width: 120px;
+    height: 120px;
+  }
 }

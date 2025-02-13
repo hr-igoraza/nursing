@@ -1,0 +1,17 @@
+.post-hero {
+    background: url(/assets/images/post-operative/postHero.png) no-repeat top / cover;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+
+
+@media screen and (max-width: 768px) {
+    .post-hero{
+      height: 90vh;
+    }
+}  
