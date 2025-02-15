@@ -1,73 +1,108 @@
-.international-hero{
-    background: url(/assets/images/international/internationalHero.png) no-repeat top / cover;
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.international-hero {
+  background: url(/assets/images/international/internationalHero.png) no-repeat
+    top / cover;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.international-hero h1 {
-    font-weight: 700;
-    font-size: 50px;
-    /* line-height: 65px; */
-    color: var(--primary-color);
-    /* margin-bottom: 0; */
+.home-details .row {
+  margin-top: 100px !important;
+  gap: 30px !important;
+}
+
+
+
+/* ==== */
+
+.plan-card {
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding: 1em 1em !important;
+
+  /* border: 1px solid black; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-price {
+  border: 1px solid var(--primary-color);
+  padding: 0.5em 3em;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.plan-price p {
+  font-size: 25px !important;
+  margin: 0 !important;
+  font-weight: 400 !important;
+}
+
+.slash {
+  font-weight: 700 !important;
+}
+
+.plan-para {
+  font-weight: 400;
+  font-size: 16px !important;
+}
+
+.plan-month {
+  font-weight: 400;
+  font-size: 12px !important;
+}
+
+.booking label {
+  margin-bottom: 10px;
+}
+
+input,
+.form-extra {
+  border: 1px solid #000 !important;
+  border-radius: 20px !important;
+  background-color: transparent !important;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-on-whatsapp {
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .international-hero {
+    height: 90vh;
   }
-  
-  .international-hero p {
-    font-weight: 400;
-    font-size: 18px;
-    color: #fff;
+
+  .home-details .row .col-md-4{
+    order: 1 !important;
+  }
+
+  .home-details .row .col-md-6{
+    order: 2 !important;
   }
 
 
-  .home-details .row{
-    margin-top: 100px !important;
-    gap: 30px !important;
-  }
-
-  /* ==== */
-
-  .plan-card {
-    border-radius: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 3em 1em !important;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .plan-price {
-    border: 1px solid var(--primary-color);
-    padding: 0.5em 3em;
-    border-radius: 5px;
-    background-color: var(--primary-color);
-    color: #fff;
-    font-weight: 600;
-    font-size: 20px;
-  }
-  
-  .plan-price p {
-    font-size: 25px !important;
-    margin: 0 !important;
-    font-weight: 400 !important;
-  }
-  
-  .slash {
-    font-weight: 700 !important;
-  }
-  
-  .plan-para {
-    font-weight: 400;
-    font-size: 13px !important;
-  }
-  
-  .plan-month {
-    font-weight: 400;
-    font-size: 12px !important;
-  }
-  
+}

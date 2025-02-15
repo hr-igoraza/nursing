@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- --- -->
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/contactus.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div data-include="../nav.html"></div>
+    <!-- ============== -->
+
+    <section class="contact-hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h1 class="my-3 fw-700 fs-50 text-teal">
+              Fill the form to contact us
+            </h1>
+            <p class="fs-20 fw-400 text-white">
+              We’re here to provide you with the best care and support! Prefer
+              to skip the forms? No problem—just send us a message at
+              care@homenursing.com or support@homenursing.com, and we’ll take
+              care of everything for you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section container py-lg-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 d-flex mb-5 justify-content-center">
+          <!-- ==== -->
+
+          <div class="contact-information text-white">
+            <div class="row text-white mb-5">
+              <h3 class="">Contact Information</h3>
+            </div>
+            <div class="contact-item my-3">
+              <div class="icon size-25">
+                <img
+                  class="w-100"
+                  src="/assets/images/contactus/mail.png"
+                  alt="mail us"
+                />
+              </div>
+
+              <p class="fs-16 m-0">support@homenursing.com</p>
+            </div>
+
+            <!-- ==== -->
+            <div class="contact-item my-3">
+              <div class="icon size-25">
+                <img
+                  class="w-100"
+                  src="/assets/images/contactus/location.png"
+                  alt="our location"
+                />
+              </div>
+
+              <p class="fs-20 m-0">Kakkanad,Kochi</p>
+            </div>
+            <!-- ==== -->
+            <div class="contact-item my-3 align-items-center">
+              <div class="icon size-25">
+                <img
+                  class="w-100"
+                  src="/assets/images/contactus/phone.png"
+                  alt="Call us"
+                />
+              </div>
+              <div class="numbers">
+                <p class="fs-20 m-0">+91 9945326555</p>
+                <p class="fs-20 m-0">+91 8866789945</p>
+              </div>
+            </div>
+            <!-- ==== -->
+            <div class="contact-item my-5">
+              <div class="icon size-30">
+                <img
+                  class="w-100"
+                  src="/assets/images/contactus/fb.png"
+                  alt="facebook"
+                />
+              </div>
+
+              <div class="icon size-30">
+                <img
+                  class="w-100"
+                  src="/assets/images/contactus/insta.png"
+                  alt="instagram"
+                />
+              </div>
+
+              <div class="icon size-30">
+                <img
+                  class="w-100"
+                  src="/assets/images/contactus/twitter.png"
+                  alt="twitter"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-6 d-flex justify-content-center">
+          <!-- =====Booking -->
+
+          <div class="row">
+            <form class="booking-form">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <label for="fullName" class="form-label">Full name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullName"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3 col-md-6">
+                  <label for="lastName" class="form-label">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="mb-3 col-md-6">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input type="tel" class="form-control" id="phone" required />
+                </div>
+
+                <div class="mb-3 col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control form-extra"
+                  id="message"
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <button type="submit " class="book-on-whatsapp mt-4">
+                <p class="m-0 fs-20 fw-600">Send</p>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-view container">
+      <div class="row">
+        <h2 class="text-center fs-50 fw-700 my-5">Our Office</h2>
+      </div>
+
+      <div class="row my-5">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=thoppumpady&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><a href="https://online-timer.me/"></a><br /><a
+              href="https://online.stopwatch-timer.net/"
+            ></a
+            ><br /><a href="https://www.embedmaps.co"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== -->
+
+    <!-- =====care -->
+
+    <section class="care container-fluid my-5">
+      <div class="row my-lg-5 justify-content-end">
+        <div class="col-md-8 col-12 ">
+          <h2 class="mb-lg-5  fs-50 fw-600 text-white">
+            Compassionate Care, Right at Home
+          </h2>
+          <div class="row">
+            <div class="col-md-10 col-12">
+              <p class="fs-18 fw-400 text-white">
+                "Experience personalized, professional home nursing services
+                that prioritize your comfort and well-being. Let us bring
+                quality care to your doorstep."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== script-->
+    <div data-include="../footer.html"></div>
+
+    <!-- script -->
+
+    <script src="/assets/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ============== -->
+  </body>
+</html>

@@ -1,13 +1,3 @@
-/* General Styles */
-:root {
-  --primary-color: #20b1ab;
-  --text-color: #000;
-  --font-family: "Poppins", sans-serif;
-}
-
-body {
-  font-family: var(--font-family);
-}
 
 /* Hero Section */
 .hero {
@@ -17,28 +7,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-}
-
-.hero h1 {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 65px;
-  color: var(--primary-color);
-  margin-bottom: 0;
-}
-
-.hero p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 100px;
+  /* position: relative;   */
 }
 
 .action-button {
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 24px;
   background: rgba(0, 0, 0, 0.25);
   border: 2px solid var(--primary-color);
   padding: 0.5em 1.8em;
@@ -460,6 +432,18 @@ body {
     font-size: 50px;
     margin-bottom: 40px;
   }
+/* 
+  .profile-img.left {
+    left: 10px;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  .profile-img.right {
+    right: 10px;
+    border-radius: 50%;
+    border: 4px solid white;
+  } */
+  
   
 }
 
