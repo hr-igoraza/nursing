@@ -42,9 +42,18 @@ a:hover {
 
 /* =========== */
 
-.size-100 {
-  width: 100px;
+.size-150{
+  width: 150px;
 }
+
+.size-100 {
+  width: 90px;
+}
+
+.size-75{
+  width: 75px;
+}
+
 
 .size-40 {
   width: 40px;
@@ -198,6 +207,17 @@ a:hover {
   font-size: 14px !important;
 }
 
+.whatsapp-float{
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+}
+
+.whatsapp-float a{
+  width: fit-content;
+}
+
+
 @media screen and (max-width: 768px) {
   .navbar-section {
     position: absolute;
@@ -262,6 +282,10 @@ a:hover {
 
   .fs-50 {
     font-size: 35px !important;
+  }
+
+  .size-75{
+    width: 55px;
   }
 }
 

@@ -113,8 +113,14 @@ iframe{
     background-color: var(--primary-color);
     border-radius: 20px;
     width: fit-content ;
-    padding: 1em 1em;
-    padding-bottom: 3em;
+    padding: 1em 2.5em;
+    /* padding-bottom: 3em; */
   }
+
+  .care{
+    height: 60vh;
+  }
+
+  
   
 }

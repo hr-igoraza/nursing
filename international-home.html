@@ -238,7 +238,7 @@
 
     <!-- =====Booking -->
 
-    <section class="booking container py-5">
+    <section class="booking container py-5 " id="for-booking">
         <div class="row mb-4 ">
             <h2 class="text-teal fs-50 fw-700 text-center">For Booking</h2>
         </div>
@@ -307,14 +307,33 @@
     <!-- ========== script-->
     <div data-include="../footer.html"></div>
 
+
     <!-- script -->
 
     <script src="/assets/js/script.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      
+window.addEventListener('DOMContentLoaded', () => {
+  const hash = window.location.hash;
+  if (hash) {
+    const targetElement = document.querySelector(hash);
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }
+});
+
+    </script>
 
     <!-- ============== -->
   </body>
