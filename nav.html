@@ -1,18 +1,50 @@
-<nav class="navbar navbar-expand-lg navbar-section navbar-light  ">
-    <div class="container ">
-      <!-- <a class="navbar-brand" href="index.html">MyWebsite</a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span><img class="w-100" src="/assets/images/hamburger.png" alt="__"/></span>
-      </button>
-      <div class="collapse navbar-collapse navItems" id="navbarNav">
-        <ul class="navbar-nav gap-lg-5 ">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="index.html#aboutUs">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html">Our Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="international-home.html">International Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>  
-  </nav>
-  
+<nav class="navbar navbar-expand-lg navbar-section navbar-light">
+  <div class="container">
+    <!-- <a class="navbar-brand" href="index.html">MyWebsite</a> -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span
+        ><img class="w-100" src="/assets/images/hamburger.png" alt="__"
+      /></span>
+    </button>
+    <div class="collapse navbar-collapse navItems" id="navbarNav">
+      <ul class="navbar-nav gap-lg-5">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item">
+          <a class="nav-link"  href="index.html#aboutUs">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Our Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="international-home.html"
+            >International Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".nav-link");
+    const currentPath =
+      window.location.pathname.split("/").pop() || "index.html";
+
+    links.forEach((link) => {
+      let linkPath = link.getAttribute("href").split("#")[0];
+
+      if (linkPath === currentPath) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>

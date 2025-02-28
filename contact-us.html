@@ -29,9 +29,9 @@
     <div data-include="../nav.html"></div>
     <!-- ============== -->
 
-    <section class="contact-hero">
+    <section class="contact-hero fadeIn">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center slideUp">
           <div class="col-lg-10 text-center">
             <h1 class="my-3 fw-700 fs-50 text-teal">
               Fill the form to contact us
@@ -212,8 +212,7 @@
             ></iframe
             ><a href="https://online-timer.me/"></a><br /><a
               href="https://online.stopwatch-timer.net/"
-            ></a
-            ><br /><a href="https://www.embedmaps.co"></a>
+            ></a>
           </div>
         </div>
       </div>
@@ -223,7 +222,7 @@
 
     <!-- =====care -->
 
-    <section class="care container-fluid my-5">
+    <section class="care container-fluid my-5 ">
       <div class="row my-lg-5 justify-content-end">
         <div class="col-md-8 col-12">
           <h2 class="mb-lg-5 fs-50 fw-600 text-white">
@@ -254,38 +253,36 @@
       crossorigin="anonymous"
     ></script>
 
+    <script>
+      document
+        .getElementById("whatsappForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault(); // Prevent default form submission
 
-    
-      <script>
-  document.getElementById('whatsappForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevent default form submission
+          // Get form values
+          const fullName = document.getElementById("fullName").value;
+          const lastName = document.getElementById("lastName").value;
+          const phone = document.getElementById("phone").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("message").value;
 
-    // Get form values
-    const fullName = document.getElementById('fullName').value;
-    const lastName = document.getElementById('lastName').value;
-    const phone = document.getElementById('phone').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    // WhatsApp message template
-    const whatsappMessage = 
-      `New Booking Inquiry:%0A%0A
+          // WhatsApp message template
+          const whatsappMessage = `New Booking Inquiry:%0A%0A
       *Name:* ${fullName} ${lastName}%0A
       *Phone:* ${phone}%0A
       *Email:* ${email}%0A
       *Message:* ${message}`;
 
-    // Replace with your WhatsApp number (include country code, remove any spaces or special characters)
-    const adminWhatsappNumber = "1234567890"; // Example: 491234567890
+          // Replace with your WhatsApp number (include country code, remove any spaces or special characters)
+          const adminWhatsappNumber = "1234567890"; // Example: 491234567890
 
-    // Generate WhatsApp URL
-    const whatsappUrl = `https://wa.me/${adminWhatsappNumber}?text=${whatsappMessage}`;
+          // Generate WhatsApp URL
+          const whatsappUrl = `https://wa.me/${adminWhatsappNumber}?text=${whatsappMessage}`;
 
-    // Open WhatsApp in a new tab
-    window.open(whatsappUrl, '_blank');
-  });
-</script>
-
+          // Open WhatsApp in a new tab
+          window.open(whatsappUrl, "_blank");
+        });
+    </script>
 
     <!-- ============== -->
   </body>

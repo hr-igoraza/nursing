@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", includeHTML);
 
 //============= nav
 
-// Fix for Navbar Active Link Highlighting and URL Path Correction
+
 document.querySelectorAll(".navbar-nav .nav-link").forEach((link) => {
   const linkPath = new URL(link.href, window.location.origin).pathname;
   if (window.location.pathname.endsWith(linkPath.replace("./", "/pages/"))) {

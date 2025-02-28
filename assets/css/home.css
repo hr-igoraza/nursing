@@ -219,6 +219,13 @@
   text-decoration: none;
 }
 
+/* .book-now-btn:hover{
+  color: white;
+} */
+
+
+
+
 /* ==== */
 
 .people {
@@ -381,6 +388,15 @@
   .details-btn{
     padding: 0.5em 0.5em;
     border-radius: 10px;
+  }
+
+  .w-fit{
+    width: fit-content !important;
+  }
+
+  .details-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
   }
 
   .details-btn a {
