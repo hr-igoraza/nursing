@@ -173,10 +173,10 @@ a:hover {
   color: var(--primary-color) !important;
 }
 
-nav .active {
+a:active{
   color: var(--primary-color) !important;
-  text-decoration: underline !important;
 }
+
 
 .navbar-toggler {
   border: 1px solid #ffffff !important;
