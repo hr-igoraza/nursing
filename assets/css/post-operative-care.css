@@ -1,13 +1,34 @@
 .post-hero {
+  height: 120vh;
+}
+
+.patient-hero {
   background: url(/assets/images/post-operative/postHero.png) no-repeat top /
     cover;
-  height: 120vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
+
+.houskeeper-hero {
+  background: url(/assets/images/inner-pages/housekeeper.png) no-repeat top /
+    cover;
+}
+
+.elder-hero {
+  background: url(/assets/images/inner-pages/elderly.png) no-repeat top / cover;
+}
+
+.newborn-hero {
+  background: url(/assets/images/inner-pages/newborn.png) no-repeat top / cover;
+}
+
+.palliative-hero{
+  background: url(/assets/images/inner-pages/palliative.png) no-repeat top / cover;
+}
+
+.pregnancy-hero{
+  background: url(/assets/images/inner-pages/pregnancy.png) no-repeat top / cover;
+}
+
+
 
 .booknow-btn {
   background-color: var(--primary-color);
@@ -87,7 +108,6 @@ input,
   border: 1px solid #000 !important;
   border-radius: 20px !important;
   background-color: transparent !important;
-  
 }
 
 .booking-form {
@@ -114,7 +134,7 @@ input,
   .post-hero {
     height: 40vh;
     background-position: top;
-    background-size: contain ;
+    background-size: contain;
   }
 
   .plan-price {
@@ -127,4 +147,3 @@ input,
     font-size: 20px;
   }
 }
-
