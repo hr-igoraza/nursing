@@ -80,6 +80,7 @@ document
   .querySelector(".book-on-whatsapp")
   .addEventListener("click", function () {
     const fullName = document.getElementById("fullName").value;
+    const service = document.getElementById("service").value;
     const bookingDate = document.getElementById("bookingDate").value;
     const country = document.getElementById("country").value;
     const phone = document.getElementById("phone").value;
@@ -92,7 +93,7 @@ document
     }
 
     const adminNumber = "+918281213626"; // Replace with the admin's WhatsApp number (with country code, no spaces)
-    const text = `Booking Request:%0AName: ${fullName}%0ABooking Date: ${bookingDate}%0ACountry: ${country}%0APhone: ${phone}%0AEmail: ${email}%0AMessage: ${message}`;
+    const text = `Booking Request:%0AName: ${fullName}%0ARequested Service: ${service}%0ABooking Date: ${bookingDate}%0ACountry: ${country}%0APhone: ${phone}%0AEmail: ${email}%0AMessage: ${message}`;
 
     const whatsappURL = `https://wa.me/${adminNumber}?text=${text}`;
     window.open(whatsappURL, "_blank");
