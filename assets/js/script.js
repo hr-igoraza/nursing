@@ -91,7 +91,7 @@ document
       return;
     }
 
-    const adminNumber = "1234567890"; // Replace with the admin's WhatsApp number (with country code, no spaces)
+    const adminNumber = "+918281213626"; // Replace with the admin's WhatsApp number (with country code, no spaces)
     const text = `Booking Request:%0AName: ${fullName}%0ABooking Date: ${bookingDate}%0ACountry: ${country}%0APhone: ${phone}%0AEmail: ${email}%0AMessage: ${message}`;
 
     const whatsappURL = `https://wa.me/${adminNumber}?text=${text}`;

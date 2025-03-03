@@ -181,7 +181,7 @@
                   class="form-control form-extra"
                   id="message"
                   name="message"
-                  rows="5"
+                  rows="5-star"
                 ></textarea>
               </div>
 
@@ -274,12 +274,10 @@
       *Message:* ${message}`;
 
           // Replace with your WhatsApp number (include country code, remove any spaces or special characters)
-          const adminWhatsappNumber = "1234567890"; // Example: 491234567890
+          const adminWhatsappNumber = "+918281213626";
 
-          // Generate WhatsApp URL
           const whatsappUrl = `https://wa.me/${adminWhatsappNumber}?text=${whatsappMessage}`;
 
-          // Open WhatsApp in a new tab
           window.open(whatsappUrl, "_blank");
         });
     </script>
