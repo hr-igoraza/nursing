@@ -8,6 +8,11 @@
   position: relative;
 }
 
+.services-link {
+  color: var(--primary-color) !important;
+}
+
+
 .service-hero h1 {
   font-weight: 700;
   font-size: 50px;

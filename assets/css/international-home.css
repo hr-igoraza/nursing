@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.international-link{
+  color: var(--primary-color) !important;
+}
+
 .home-details .row {
   margin-top: 100px !important;
   gap: 30px !important;

@@ -2,6 +2,10 @@
   height: 120vh;
 }
 
+.services-link {
+  color: var(--primary-color) !important;
+}
+
 .patient-hero {
   background: url(/assets/images/post-operative/postHero.png) no-repeat top /
     cover;

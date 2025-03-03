@@ -9,6 +9,11 @@
   position: relative;
 }
 
+
+.contact-link{
+  color: var(--primary-color) !important;
+}
+
 .contact-information {
   background-color: var(--primary-color);
   border-radius: 20px;
