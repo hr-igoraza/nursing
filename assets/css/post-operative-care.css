@@ -138,7 +138,7 @@ input,
   .post-hero {
     height: 40vh;
     background-position: top;
-    background-size: contain;
+    background-size: cover;
   }
 
   .plan-price {
