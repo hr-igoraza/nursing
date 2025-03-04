@@ -193,7 +193,17 @@
   font-size: 20px;
 }
 
-.plan-price p {
+.home-plan-price {
+  border: 1px solid var(--primary-color);
+  padding: 0.5em 3em;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.home-plan-price p {
   font-size: 25px !important;
   margin: 0 !important;
   font-weight: 400 !important;
@@ -464,7 +474,14 @@
     border: 4px solid white;
   } */
   
-  
+  .home-plan-price{
+    padding: 0.5em 2em;
+  }
+
+  .book-now-btn{
+    padding: 0.5em 2em;
+  }
+
 }
 
 @media (max-width: 480px) {
