@@ -216,6 +216,11 @@ a:active{
   font-size: 14px !important;
 }
 
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
 .whatsapp-float{
   position: fixed;
   right: 20px;
