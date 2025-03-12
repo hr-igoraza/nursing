@@ -227,6 +227,21 @@ a:active{
 }
 
 
+
+.service-list {
+  margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.service-list li {
+    margin-bottom: 10px !important;
+}
+.highlight {
+    font-weight: bold;
+}
+
+
+
 @media screen and (max-width: 768px) {
   .navbar-section {
     position: absolute;
