@@ -14,6 +14,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- fontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,8 +32,22 @@
     />
     <!-- --- -->
 
+    <!-- owl-carousel -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+    />
+
+    <!-- ========= -->
+
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/home.css" />
+    <link rel="stylesheet" href="/assets//css/testimonial.css" />
   </head>
 
   <body>
@@ -173,7 +196,7 @@
           <div class="row p-3 trust-content px-lg-5 justify-content-center">
             <h2>Why clients trust us?</h2>
 
-            <p>
+            <p class="text-dark">
               Our
               <strong
                 >certified caregivers in Kochi, Ernakulam, and Kaloor</strong
@@ -453,79 +476,55 @@
       </div>
     </section>
 
-    <!-- =====others -->
+    <!-- =====Testimonials -->
 
-    <section class="container p-lg-5 my-5">
-      <div class="row">
-        <div class="col-md-6 col-12 people">
-          <!-- ============ -->
 
-          <div class="testimonial-card">
-            <div class="profile-container">
-              <img
-                id="left-img"
-                class="profile-img left"
-                src="/assets/images/home/testimonial/sam.png"
-                onclick="changeTestimonial(1)"
-              />
-              <img
-                id="main-img"
-                class="main-img"
-                src="/assets/images/home/testimonial/alex.png"
-                onclick="nextTestimonial()"
-              />
-              <img
-                id="right-img"
-                class="profile-img right"
-                src="/assets/images/home/testimonial/sofia.png"
-                onclick="changeTestimonial(2)"
-              />
-            </div>
-            <h3 class="my-2" id="name">sam</h3>
-            <div class="test">
-              <p class="testimonial-para" id="review">
-                "Exceptional care and compassionate service – highly recommend
-                this home nursing team!"
-              </p>
-            </div>
-            <div class="rating">
-              <div class="num">
-                <span class="given-rating"> 5.0</span>
-                <span class="total-rating">/5.0 rating</span>
-              </div>
-              <div class="star">
-                <span class="star-rating">★★★★★</span>
-              </div>
-            </div>
-          </div>
+    <section class="container-fluid p-lg-5 my-5 demo">
+      <h2 class="text-center mb-5 fs-40 fw-600">What People Say</h2>
+
+      <div class="testimonial-card row mt-lg-5 mt-4 justify-content-center gap-md-0 gap-5">
+        <div class="profile-container col-2 col-md-2">
+          <img
+            id="left-img"
+            class="profile-img left"
+            src="/assets/images/home/testimonial/sam.png"
+            onclick="changeTestimonial(1)"
+          />
+
+          <img
+            id="main-img"
+            class="main-img"
+            src="/assets/images/home/testimonial/alex.png"
+            onclick="nextTestimonial(2)"
+          />
+          <img
+            id="right-img"
+            class="profile-img right"
+            src="/assets/images/home/testimonial/sofia.png"
+            onclick="changeTestimonial(3)"
+          />
         </div>
 
-        <!-- ========= -->
-        <div class="col-md-5 col-12 testimonial-text px-lg-4 my-3 my-lg-0">
-          <h2 class="">See What Others People Are Saying</h2>
-          <!-- ==== -->
-
-          <div class="rating-card shadow-sm p-4 mt-lg-5 px-5">
-            <h3 class="customers">12,698</h3>
-            <div class="">
-              <span class="card-star-rating">★★★★★</span>
-            </div>
-            <p class="text-muted mb-3">
-              5-star reviews from satisfied customers
+        <div class=" col-md-6 col-7  position-relative box  lg-p-5 p-md-5 p-3">
+          <div class="quotes " >/ /</div>
+          <div class=" d-flex justify-content-center align-items-center h-100">
+            <p class="testimonial-para " id="review">
+              "Exceptional care and compassionate service – highly recommend
+              this home nursing team!"
             </p>
-            <a href="#" class="d-flex align-items-center text-decoration-none">
-              <img
-                src="/assets/images/home/testimonial/rightArrow.svg"
-                alt=""
-              />
-              ALL REVIEW
-            </a>
           </div>
-
-          <!-- ==== -->
+          <div class="position-absolute bottom-0 end-0 px-md-5 px-2 size-200 text-end">
+            <h3 class="m-0 fs-24 text-dark" id="name">Sam</h3>
+            <p class="position fs-16 text-dark">Manager</p>
+          </div>
         </div>
       </div>
+      <!-- ========= -->
+
+      <!-- ==== -->
     </section>
+
+    <!-- ====================== -->
 
     <div data-include="footer.html"></div>
 
@@ -537,6 +536,31 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.12.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#testimonial-slider").owlCarousel({
+          items: 1,
+          itemsDesktop: [1000, 1],
+          itemsDesktopSmall: [979, 1],
+          itemsTablet: [768, 1],
+          pagination: true,
+          navigation: true,
+          navigationText: ["", ""],
+          slideSpeed: 1000,
+          autoPlay: true,
+        });
+      });
+    </script>
 
     <!-- ==== -->
   </body>

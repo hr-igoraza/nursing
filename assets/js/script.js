@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", includeHTML);
 
 //============= nav
 
-
 document.querySelectorAll(".navbar-nav .nav-link").forEach((link) => {
   const linkPath = new URL(link.href, window.location.origin).pathname;
   if (window.location.pathname.endsWith(linkPath.replace("./", "/pages/"))) {
@@ -27,18 +26,19 @@ const testimonials = [
     img: "/assets/images/home/testimonial/sam.png",
     name: "sam",
     review:
-      '"Exceptional care and compassionate service – highly recommend this home nursing team!"',
+      '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est expedita fuga neque obcaecati iure exercitationem veniam blanditiis, aspernatur accusantium eaque unde aut porro, mollitia reprehenderit qui doloribus, minus eum."',
   },
   {
     img: "/assets/images/home/testimonial/alex.png",
     name: "Alex",
-    review: '"Great experience, the team was professional and very helpful!"',
+    review:
+      '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est expedita fuga neque obcaecati iure exercitationem veniam blanditiis, asperndoloribus, minus eum.!"',
   },
   {
     img: "/assets/images/home/testimonial/sofia.png",
     name: "sophia",
     review:
-      '"Highly skilled professionals who genuinely care about their patients."',
+      '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est expedita fuga neque obcaecati iure exercitationem veniam blanditiis, aspernatur accibus, minus eum.."',
   },
 ];
 let currentIndex = 0;
@@ -98,4 +98,3 @@ document
     const whatsappURL = `https://wa.me/${adminNumber}?text=${text}`;
     window.open(whatsappURL, "_blank");
   });
-
