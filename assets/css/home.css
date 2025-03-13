@@ -297,13 +297,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:10px;
 }
 .profile-img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   cursor: pointer;
-  opacity: 75%;
+  opacity: 35%;
   /* position: absolute; */
   transition: transform 0.3s ease-in-out;
 }
@@ -311,19 +312,19 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  /* border: 4px solid var(--primary-color); */
+  /* border: 2px solid var(--primary-color); */
   z-index: 2;
   cursor: pointer;
 }
 .profile-img.left {
   /* left: 130px; */
   border-radius: 50%;
-  border: 4px solid white;
+  /* border: 4px solid white; */
 }
 .profile-img.right {
   /* right: 130px; */
   border-radius: 50%;
-  border: 4px solid white;
+  /* border: 4px solid white; */
 }
 
 .testimonial-text h2 {
