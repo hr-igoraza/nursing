@@ -1,0 +1,20 @@
+.navbar a{
+    color: var(--primary-color) !important;
+}
+
+.navbar a:hover{
+    text-decoration: underline !important;
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    .navbar-toggler {
+        border: 1px solid var(--primary-color) !important;
+        width: 50px !important  ;
+        color: var(--primary-color) !important;
+
+        background-color: var(--primary-color) !important;
+      }
+}
+
