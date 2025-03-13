@@ -304,7 +304,7 @@
   height: 60px;
   border-radius: 50%;
   cursor: pointer;
-  opacity: 35%;
+  opacity: 3  5%;
   /* position: absolute; */
   transition: transform 0.3s ease-in-out;
 }
