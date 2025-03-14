@@ -26,7 +26,7 @@ const testimonials = [
     img: "/assets/images/home/testimonial/sam.png",
     name: "sam",
     review:
-      '"KochinLifecare’s nurses truly cared, They took the time to understand my preferences and created a care plan that felt truly personalized. I'm so
+      '"KochinLifecare’s nurses truly cared, They took the time to understand my preferences and created a care plan that felt truly personalized. I am so
 grateful for their compassionate and dedicated service."',
   },
   {
