@@ -33,9 +33,7 @@ grateful for their compassionate and dedicated service."',
     img: "/assets/images/home/testimonial/alex.png",
     name: "Ronalssi Samuel",
     review:
-      '"We needed skilled nursing careservice, At Kochin LifeCare exceeded our expectations. The nurses were highly professional, knowledgeable, and
-reliable. They managed medications and wound care expertly, and their
-communication was excellent. I highly recommend their services for anyone
+      '"We needed skilled nursing careservice, At Kochin LifeCare exceeded our expectations. The nurses were highly professional, knowledgeable, and reliable. They managed medications and wound care expertly, and theircommunication was excellent. I highly recommend their services for anyone
 needing top-notch nursing care."',
   },
   {
