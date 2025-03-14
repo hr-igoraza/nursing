@@ -26,19 +26,27 @@ const testimonials = [
     img: "/assets/images/home/testimonial/sam.png",
     name: "sam",
     review:
-      '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est expedita fuga neque obcaecati iure exercitationem veniam blanditiis, aspernatur accusantium eaque unde aut porro, mollitia reprehenderit qui doloribus, minus eum."',
+      '"KochinLifecare’s nurses truly cared, They took the time to understand my
+preferences and created a care plan that felt truly personalized. I'm so
+grateful for their compassionate and dedicated service."',
   },
   {
     img: "/assets/images/home/testimonial/alex.png",
-    name: "Alex",
+    name: "Ronalssi Samuel",
     review:
-      '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est expedita fuga neque obcaecati iure exercitationem veniam blanditiis, asperndoloribus, minus eum.!"',
+      '"We needed skilled nursing careservice, At Kochin LifeCare exceeded our expectations. The nurses were highly professional, knowledgeable, and
+reliable. They managed medications and wound care expertly, and their
+communication was excellent. I highly recommend their services for anyone
+needing top-notch nursing care."',
   },
   {
     img: "/assets/images/home/testimonial/sofia.png",
-    name: "sophia",
+    name: "Raji Umesh",
     review:
-      '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est expedita fuga neque obcaecati iure exercitationem veniam blanditiis, aspernatur accibus, minus eum.."',
+      '"Kochin LifeCare provided invaluable support for our family during a difficult time. Their excellent care at home gave us immense peace of mind. The
+nurses were not only skilled but also kind and patient, and they went above
+and beyond to support our entire family. They truly understand the
+importance of providing holistic care."',
   },
 ];
 let currentIndex = 0;
