@@ -40,10 +40,7 @@ needing top-notch nursing care."',
     img: "/assets/images/home/testimonial/sofia.png",
     name: "Raji Umesh",
     review:
-      '"Kochin LifeCare provided invaluable support for our family during a difficult time. Their excellent care at home gave us immense peace of mind. The
-nurses were not only skilled but also kind and patient, and they went above
-and beyond to support our entire family. They truly understand the
-importance of providing holistic care."',
+      '"Kochin LifeCare provided invaluable support for our family during a difficult time. Their excellent care at home gave us immense peace of mind. The nurses were not only skilled but also kind and patient, and they went aboveand beyond to support our entire family. They truly understand theimportance of providing holistic care."',
   },
 ];
 let currentIndex = 0;
