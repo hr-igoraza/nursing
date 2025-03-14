@@ -23,19 +23,19 @@ document.querySelectorAll(".navbar-nav .nav-link").forEach((link) => {
 
 const testimonials = [
   {
-    img: "/assets/images/home/testimonial/sam.png",
-    name: "sam",
+    img: "/assets/images/home/testimonial/sofia.png",
+    name: "Sofia",
     review:
       '"KochinLifecare’s nurses truly cared, They took the time to understand my preferences and created a care plan that felt truly personalized. I am so grateful for their compassionate and dedicated service."',
   },
   {
-    img: "/assets/images/home/testimonial/alex.png",
+    img: "/assets/images/home/testimonial/samuel.png",
     name: "Ronalssi Samuel",
     review:
       '"We needed skilled nursing careservice, At Kochin LifeCare exceeded our expectations. The nurses were highly professional, knowledgeable, and reliable. They managed medications and wound care expertly, and their communication was excellent. I highly recommend their services for anyone needing top-notch nursing care."',
   },
   {
-    img: "/assets/images/home/testimonial/sofia.png",
+    img: "/assets/images/home/testimonial/raji.png",
     name: "Raji Umesh",
     review:
       '"Kochin LifeCare provided invaluable support for our family during a difficult time. Their excellent care at home gave us immense peace of mind. The nurses were not only skilled but also kind and patient, and they went above and beyond to support our entire family. They truly understand the importance of providing holistic care."',
